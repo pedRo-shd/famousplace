@@ -4,7 +4,7 @@ FROM ruby:2.4.1
 RUN apt-get update && apt-get install -qq -y --no-install-recommends \
       build-essential nodejs libpq-dev
 # Seta nosso path
-ENV INSTALL_PATH /onebnb_api
+ENV INSTALL_PATH /famousplace
 # Cria nosso diretório
 RUN mkdir -p $INSTALL_PATH
 # Seta o nosso path como o diretório principal
